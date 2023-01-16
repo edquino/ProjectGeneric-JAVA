@@ -8,7 +8,7 @@ package com.aprendizaje.test.jdbc;
  *
  * @author EDDY AQUINO
  */
-public class ClassMain{
+public class ClasePrincipal{
     public static void main(String[] args) {
                  System.out.println("Hola Mundo");
     }
