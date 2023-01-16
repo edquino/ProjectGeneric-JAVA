@@ -9,5 +9,15 @@ pipeline {
         echo 'hello projectGeneric-JAVA'
       }
     }
+    stage ('cat README'){
+	when{
+	  branch develop	 
+	}
+	steps {
+	  sh '''
+	    cat README.md
+	  '''
+	}
+    }
   }
 }
